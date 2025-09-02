@@ -1,8 +1,10 @@
-import { Button } from "@/components/ui/button";
+import HeroSection from "@/components/hero";
 
 
 export default function Home() {
-  return <Button variant='destructive'>Button test Shadcn ui</Button>;
-  
+  return (<div className = "mt-40 block">
+      <HeroSection/>
+    </div>
+  );
 }
  
