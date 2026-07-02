@@ -17,7 +17,7 @@ const Header = async () => {
               alt="FinTrack logo"
               height={60}
               width={200}
-              className="h-12 w-auto object-contain"
+              className="h-6 w-auto object-contain"
             />
           </Link>
           <div className="flex items-center space-x-4">

@@ -7,7 +7,6 @@ import Accountcard from './_components/account-card';
 
 async function DashboardPage (){
   const accounts = await getUserAccounts();
-  console.log(accounts)
   return (
     <div className="px-5">
       {/* Budget Progress */}
