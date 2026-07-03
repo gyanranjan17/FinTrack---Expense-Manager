@@ -7,7 +7,7 @@ import { BarLoader } from 'react-spinners';
 const AccountsPage = async ({params}) => {
     const { id } = await params;
     const accountData = await getAccountWithTransactions(id);
-    
+
     if(!accountData){
         notFound();
     }
@@ -17,7 +17,7 @@ const AccountsPage = async ({params}) => {
             <div className = "flex gap-4 items-end justify-between">
                 <div>
                     <h1 className = "text-3xl sm:text-4xl font-bold capitalize text-sky-800">{account.name}</h1>
-                    <p className="text-muted-foreground">{account.type.charAt(0) + account.type.slice(1).toLowerCase()} Account</p>
+                    <p className="text-muted-foreground">{(account.isDefault) ? `${account.type.charAt(0) + account.type.slice(1).toLowerCase()} Account - Default` : `${account.type.charAt(0) + account.type.slice(1).toLowerCase()} Account` }  </p>
                 </div>
 
                 <div className="text-right pb-2">
