@@ -28,7 +28,7 @@ const HeroSection = () => {
     <div className="pb-20 px-4">
         <div className="container mx-auto text-center">
             <h1 className="text-5xl md:textxt-8xl lg:text-[105px] pb-6 gradient gradient-title">
-                Manage your Finances <br/> with Intelligence
+                Financial Clarity <br/> Powered by AI
             </h1>
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                 An AI powered personal finance management tool that helps you track your expenses, create budgets, and achieve your financial goals with ease.
