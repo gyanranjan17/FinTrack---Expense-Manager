@@ -32,6 +32,7 @@ const AccountsPage = async ({params}) => {
             </div>
             
             {/* Chart Section */}
+            
 
             {/* Transaction Table */}
             <Suspense 
