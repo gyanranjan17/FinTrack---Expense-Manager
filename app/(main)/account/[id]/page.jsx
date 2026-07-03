@@ -17,7 +17,7 @@ const AccountsPage = async ({params}) => {
         <div className = "space-y-8 px-5">
             <div className = "flex gap-4 items-end justify-between">
                 <div>
-                    <h1 className = "text-3xl sm:text-4xl font-bold capitalize text-sky-800">{account.name}</h1>
+                    <h1 className = "text-3xl sm:text-4xl font-bold capitalize gradient-title">{account.name}</h1>
                     <p className="text-sky-900">{(account.isDefault) ? `${account.type.charAt(0) + account.type.slice(1).toLowerCase()} Account - Default` : `${account.type.charAt(0) + account.type.slice(1).toLowerCase()} Account` }  </p>
                 </div>
 
