@@ -15,10 +15,10 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`${inter.className} bg-[#eef1f8]`}>
+        <body className={`${inter.className}`}>
           {/* header */}
           <Header/>
-          <main className="min-h-screen bg-[#eef1f8]">
+          <main className="min-h-screen">
             {children}
           </main>
           <Toaster richColors/>
